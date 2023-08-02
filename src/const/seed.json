@@ -1,0 +1,2492 @@
+[
+  {
+    "people": [
+      {
+        "id": "88f189a0-95ee-458e-9333-54a095b87402",
+        "name": "John Smith",
+        "role": "Professor",
+        "created_at": "2023-08-02T02:31:31.178Z",
+        "updated_at": "2023-08-02T04:08:30.541Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8b9ebc23-8625-41c8-90da-bdea0219e40f",
+        "name": "Jane Doe",
+        "role": "Student",
+        "created_at": "2023-08-02T07:37:37.962Z",
+        "updated_at": "2023-08-02T08:32:13.240Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3daaff85-31ed-4653-9a01-e6980feb126f",
+        "name": "Michael Brown",
+        "role": "Researcher",
+        "created_at": "2023-08-02T00:40:48.438Z",
+        "updated_at": "2023-08-01T16:11:14.757Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "aea74fd0-2e0f-436a-b654-9ed967dc2534",
+        "name": "Sarah Jones",
+        "role": "Administrator",
+        "created_at": "2023-08-02T03:46:10.341Z",
+        "updated_at": "2023-08-01T20:09:55.060Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "70561ece-f7df-4eb2-8c16-c06037ac9be0",
+        "name": "David Wilson",
+        "role": "Alumni",
+        "created_at": "2023-08-01T17:58:54.337Z",
+        "updated_at": "2023-08-02T02:28:18.525Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "item_type": [
+      {
+        "id": "4a52f2d7-ed0f-4426-9661-a6d900d7a36f",
+        "type": "Electronics",
+        "created_at": "2023-08-01T21:17:38.370Z",
+        "updated_at": "2023-08-02T06:23:18.214Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1613231e-8a81-4739-91c0-30e2ef3cbc12",
+        "type": "Clothing",
+        "created_at": "2023-08-02T14:50:22.219Z",
+        "updated_at": "2023-08-02T01:58:39.783Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "42114d9e-a3f1-4447-86c7-6bfbd940f4ea",
+        "type": "Books",
+        "created_at": "2023-08-02T11:53:46.816Z",
+        "updated_at": "2023-08-02T15:36:04.924Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8bdc1aa3-03b1-4a99-af65-62b5fbc0a0be",
+        "type": "Home Decor",
+        "created_at": "2023-08-02T15:58:15.320Z",
+        "updated_at": "2023-08-02T06:13:17.371Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2a2890da-106d-4921-add4-9511df469cf5",
+        "type": "Sports Equipment",
+        "created_at": "2023-08-02T09:36:46.146Z",
+        "updated_at": "2023-08-02T11:53:39.634Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "item_category": [
+      {
+        "id": "858a8cbc-9543-4845-9518-07c5309570a7",
+        "category": "Electronics",
+        "created_at": "2023-08-02T13:38:00.468Z",
+        "updated_at": "2023-08-02T08:04:07.811Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8622a670-a695-48ce-bb48-505f3820421d",
+        "category": "Fashion",
+        "created_at": "2023-08-02T12:10:05.415Z",
+        "updated_at": "2023-08-01T23:28:09.004Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b6d2d63b-6719-44d9-bf1b-62f50c6fcc32",
+        "category": "Books",
+        "created_at": "2023-08-01T23:32:50.782Z",
+        "updated_at": "2023-08-02T10:55:16.390Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f3534056-06b8-41a6-bbc5-486c2b82fa03",
+        "category": "Home & Living",
+        "created_at": "2023-08-02T01:54:28.773Z",
+        "updated_at": "2023-08-02T05:19:51.427Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "88174fbe-944c-4198-b5a0-c125ff889c50",
+        "category": "Sports & Outdoors",
+        "created_at": "2023-08-02T02:47:20.058Z",
+        "updated_at": "2023-08-02T08:56:28.168Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "item": [
+      {
+        "id": "140e73f8-3fd3-49ac-baa7-cd7d2a37413b",
+        "name": "iPhone 12",
+        "created_at": "2023-08-01T18:28:02.084Z",
+        "updated_at": "2023-08-02T13:06:23.975Z",
+        "category_id": "f3534056-06b8-41a6-bbc5-486c2b82fa03",
+        "type_id": "1613231e-8a81-4739-91c0-30e2ef3cbc12",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fcd2cbb4-c52b-4fe0-a523-e81c777bcb5f",
+        "name": "Designer Dress",
+        "created_at": "2023-08-02T15:25:44.754Z",
+        "updated_at": "2023-08-01T21:35:25.528Z",
+        "category_id": "8622a670-a695-48ce-bb48-505f3820421d",
+        "type_id": "42114d9e-a3f1-4447-86c7-6bfbd940f4ea",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3d4e5965-cbf2-4f9a-8945-d3626fef9648",
+        "name": "Harry Potter and the Sorcerer's Stone",
+        "created_at": "2023-08-02T12:07:53.471Z",
+        "updated_at": "2023-08-01T20:57:25.908Z",
+        "category_id": "b6d2d63b-6719-44d9-bf1b-62f50c6fcc32",
+        "type_id": "1613231e-8a81-4739-91c0-30e2ef3cbc12",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "816ecf19-534c-4102-b427-ab17851394f4",
+        "name": "Decorative Pillow",
+        "created_at": "2023-08-01T22:13:44.325Z",
+        "updated_at": "2023-08-02T02:22:26.371Z",
+        "category_id": "858a8cbc-9543-4845-9518-07c5309570a7",
+        "type_id": "42114d9e-a3f1-4447-86c7-6bfbd940f4ea",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "abbe8d6d-cd05-4575-bb96-040f11a14875",
+        "name": "Yoga Mat",
+        "created_at": "2023-08-02T10:52:53.953Z",
+        "updated_at": "2023-08-01T18:38:10.884Z",
+        "category_id": "858a8cbc-9543-4845-9518-07c5309570a7",
+        "type_id": "42114d9e-a3f1-4447-86c7-6bfbd940f4ea",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "transaction": [
+      {
+        "id": "f26e27ac-3785-4c30-96f1-116483bef543",
+        "transaction_type": "Purchase",
+        "created_at": "2023-08-02T14:03:44.435Z",
+        "updated_at": "2023-08-01T18:03:25.984Z",
+        "item_id": "140e73f8-3fd3-49ac-baa7-cd7d2a37413b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "675476a3-d443-4c27-8b52-66c69d7725ee",
+        "transaction_type": "Sale",
+        "created_at": "2023-08-02T11:57:39.607Z",
+        "updated_at": "2023-08-01T16:48:40.377Z",
+        "item_id": "3d4e5965-cbf2-4f9a-8945-d3626fef9648",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3b29a830-ea6a-4215-9615-6c14e9b5c38c",
+        "transaction_type": "Rental",
+        "created_at": "2023-08-01T19:40:55.016Z",
+        "updated_at": "2023-08-02T03:56:01.787Z",
+        "item_id": "3d4e5965-cbf2-4f9a-8945-d3626fef9648",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "40a239c1-7a1c-4cd6-8685-bf053be52f72",
+        "transaction_type": "Exchange",
+        "created_at": "2023-08-01T19:26:26.693Z",
+        "updated_at": "2023-08-02T10:48:13.159Z",
+        "item_id": "fcd2cbb4-c52b-4fe0-a523-e81c777bcb5f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "64b55531-da08-49f9-80b4-4b14cbe58faa",
+        "transaction_type": "Donation",
+        "created_at": "2023-08-02T00:30:08.127Z",
+        "updated_at": "2023-08-02T00:06:12.831Z",
+        "item_id": "fcd2cbb4-c52b-4fe0-a523-e81c777bcb5f",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "item_batch": [
+      {
+        "id": "36400205-5d95-4991-a983-9c190db35c79",
+        "batch_number": "12345",
+        "created_at": "2023-08-01T17:54:06.828Z",
+        "updated_at": "2023-08-01T17:11:45.849Z",
+        "item_id": "abbe8d6d-cd05-4575-bb96-040f11a14875",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4d5cc8f3-04a3-4569-bfb1-3d63e7184458",
+        "batch_number": "67890",
+        "created_at": "2023-08-01T18:26:09.721Z",
+        "updated_at": "2023-08-01T20:11:12.598Z",
+        "item_id": "fcd2cbb4-c52b-4fe0-a523-e81c777bcb5f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "918db83b-3bab-4b7f-bfbe-59cacd8e6438",
+        "batch_number": "ABCDE",
+        "created_at": "2023-08-01T21:33:34.483Z",
+        "updated_at": "2023-08-01T20:24:17.712Z",
+        "item_id": "3d4e5965-cbf2-4f9a-8945-d3626fef9648",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "88d2b45e-ec1d-488d-97b6-c5484097144f",
+        "batch_number": "FGHIJ",
+        "created_at": "2023-08-01T21:31:14.231Z",
+        "updated_at": "2023-08-02T11:07:46.150Z",
+        "item_id": "abbe8d6d-cd05-4575-bb96-040f11a14875",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "84c80340-170d-4cf7-864c-8740a9495f06",
+        "batch_number": "KLMNO",
+        "created_at": "2023-08-01T17:40:14.351Z",
+        "updated_at": "2023-08-02T03:01:28.036Z",
+        "item_id": "816ecf19-534c-4102-b427-ab17851394f4",
+        "user_id": "user_entity_pk"
+      }
+    ]
+  },
+  {
+    "people": [
+      {
+        "id": "a561a98a-2d10-4c69-9fef-0bfee8466700",
+        "name": "John Smith",
+        "role": "Professor",
+        "created_at": "2023-08-01T17:36:14.093Z",
+        "updated_at": "2023-08-02T04:13:27.913Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "aba682fa-c96d-40c9-8031-b5e3b1a1a3ba",
+        "name": "Jane Doe",
+        "role": "Student",
+        "created_at": "2023-08-02T03:00:27.941Z",
+        "updated_at": "2023-08-02T04:24:35.458Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ca42225b-f766-4d3f-a0d2-e5e4760b5f39",
+        "name": "Michael Brown",
+        "role": "Researcher",
+        "created_at": "2023-08-02T10:20:51.896Z",
+        "updated_at": "2023-08-02T15:53:11.707Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4364fa24-b4b7-4ccc-b0c6-d43a2f7043b2",
+        "name": "Sarah Jones",
+        "role": "Administrator",
+        "created_at": "2023-08-02T12:19:54.060Z",
+        "updated_at": "2023-08-02T13:09:25.151Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a4c27424-669f-4e1f-818f-a62004a64841",
+        "name": "David Wilson",
+        "role": "Alumni",
+        "created_at": "2023-08-01T17:40:48.468Z",
+        "updated_at": "2023-08-02T08:46:03.004Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "item_type": [
+      {
+        "id": "f43e5418-5354-4f25-a9c1-af3ae4ce2906",
+        "type": "Electronics",
+        "created_at": "2023-08-02T02:07:35.453Z",
+        "updated_at": "2023-08-02T06:14:51.917Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "81890a44-042f-4d95-a30a-ee8829ee279a",
+        "type": "Clothing",
+        "created_at": "2023-08-02T07:36:29.602Z",
+        "updated_at": "2023-08-01T17:17:05.680Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a808ec8e-790c-4dea-a1ec-b1e375e8a885",
+        "type": "Books",
+        "created_at": "2023-08-02T10:08:49.201Z",
+        "updated_at": "2023-08-02T10:19:31.353Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c4a0f68d-2d33-487c-ba6b-dbeb502c7ca8",
+        "type": "Home Decor",
+        "created_at": "2023-08-02T03:14:46.421Z",
+        "updated_at": "2023-08-01T21:55:59.754Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "62b29888-9b64-4f7f-9568-1eff0218a999",
+        "type": "Sports Equipment",
+        "created_at": "2023-08-01T18:30:20.370Z",
+        "updated_at": "2023-08-02T05:40:01.307Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "item_category": [
+      {
+        "id": "d882ade2-898c-46e5-8392-91047a895991",
+        "category": "Electronics",
+        "created_at": "2023-08-02T06:03:59.417Z",
+        "updated_at": "2023-08-02T12:08:29.278Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5c7e1bd6-3c1c-483e-9da3-227713b1e66d",
+        "category": "Fashion",
+        "created_at": "2023-08-02T06:53:09.487Z",
+        "updated_at": "2023-08-02T11:33:18.789Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "06ab4b18-262a-46ef-afa7-f72705ebf749",
+        "category": "Books",
+        "created_at": "2023-08-02T04:19:21.016Z",
+        "updated_at": "2023-08-01T20:23:17.950Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4acfc5b4-db3a-4530-8040-a404421e7d05",
+        "category": "Home & Living",
+        "created_at": "2023-08-01T16:13:48.993Z",
+        "updated_at": "2023-08-01T17:43:17.017Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ab46f796-7413-4b92-8d8a-b76ab4ace456",
+        "category": "Sports & Outdoors",
+        "created_at": "2023-08-02T06:35:56.207Z",
+        "updated_at": "2023-08-02T12:00:47.821Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "item": [
+      {
+        "id": "c38116a3-d6e4-4542-90c4-9c5ab0d09b0b",
+        "name": "iPhone 12",
+        "created_at": "2023-08-02T10:27:21.221Z",
+        "updated_at": "2023-08-02T12:31:17.287Z",
+        "category_id": "4acfc5b4-db3a-4530-8040-a404421e7d05",
+        "type_id": "a808ec8e-790c-4dea-a1ec-b1e375e8a885",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1b8bf13f-bba4-41db-8d7c-43e8f7022c4c",
+        "name": "Designer Dress",
+        "created_at": "2023-08-02T00:04:07.287Z",
+        "updated_at": "2023-08-01T17:02:10.406Z",
+        "category_id": "ab46f796-7413-4b92-8d8a-b76ab4ace456",
+        "type_id": "62b29888-9b64-4f7f-9568-1eff0218a999",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "143a2e19-6c74-4c89-b590-ddbfb297b513",
+        "name": "Harry Potter and the Sorcerer's Stone",
+        "created_at": "2023-08-02T11:06:11.341Z",
+        "updated_at": "2023-08-02T07:49:25.973Z",
+        "category_id": "5c7e1bd6-3c1c-483e-9da3-227713b1e66d",
+        "type_id": "62b29888-9b64-4f7f-9568-1eff0218a999",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "404378c1-2b58-44f6-9650-bffb5ed70ee8",
+        "name": "Decorative Pillow",
+        "created_at": "2023-08-02T11:40:09.038Z",
+        "updated_at": "2023-08-02T15:48:12.435Z",
+        "category_id": "5c7e1bd6-3c1c-483e-9da3-227713b1e66d",
+        "type_id": "62b29888-9b64-4f7f-9568-1eff0218a999",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0d2182fa-52a3-40c3-bbac-1111119f8890",
+        "name": "Yoga Mat",
+        "created_at": "2023-08-01T19:52:30.257Z",
+        "updated_at": "2023-08-02T07:35:29.366Z",
+        "category_id": "4acfc5b4-db3a-4530-8040-a404421e7d05",
+        "type_id": "81890a44-042f-4d95-a30a-ee8829ee279a",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "transaction": [
+      {
+        "id": "11342fc0-98cb-4a57-ac3d-b5c69985b23b",
+        "transaction_type": "Purchase",
+        "created_at": "2023-08-02T14:10:25.780Z",
+        "updated_at": "2023-08-01T18:39:48.030Z",
+        "item_id": "143a2e19-6c74-4c89-b590-ddbfb297b513",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "96600367-1678-450e-bc60-1143854c8496",
+        "transaction_type": "Sale",
+        "created_at": "2023-08-02T14:38:23.336Z",
+        "updated_at": "2023-08-01T19:09:37.936Z",
+        "item_id": "143a2e19-6c74-4c89-b590-ddbfb297b513",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1b12ef34-2300-4a04-a28d-1ab4d3f072ed",
+        "transaction_type": "Rental",
+        "created_at": "2023-08-02T14:31:47.593Z",
+        "updated_at": "2023-08-01T22:16:00.319Z",
+        "item_id": "0d2182fa-52a3-40c3-bbac-1111119f8890",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "95b99d6a-a549-40bb-bd3f-1106bdd034ff",
+        "transaction_type": "Exchange",
+        "created_at": "2023-08-02T06:29:59.912Z",
+        "updated_at": "2023-08-01T19:56:51.367Z",
+        "item_id": "143a2e19-6c74-4c89-b590-ddbfb297b513",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "015d9821-2c7e-4cca-afea-0ef21788967e",
+        "transaction_type": "Donation",
+        "created_at": "2023-08-02T12:30:43.905Z",
+        "updated_at": "2023-08-02T09:59:06.034Z",
+        "item_id": "c38116a3-d6e4-4542-90c4-9c5ab0d09b0b",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "item_batch": [
+      {
+        "id": "d27e9403-0c25-4482-ba91-a740c93389e5",
+        "batch_number": "12345",
+        "created_at": "2023-08-02T07:18:01.195Z",
+        "updated_at": "2023-08-01T16:18:37.289Z",
+        "item_id": "c38116a3-d6e4-4542-90c4-9c5ab0d09b0b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8de96d26-2be7-4d6a-8a25-8e9379970f23",
+        "batch_number": "67890",
+        "created_at": "2023-08-02T10:38:14.703Z",
+        "updated_at": "2023-08-02T12:51:08.118Z",
+        "item_id": "143a2e19-6c74-4c89-b590-ddbfb297b513",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6bd0f275-7ae0-4f61-b682-646deee59a3f",
+        "batch_number": "ABCDE",
+        "created_at": "2023-08-02T13:16:25.339Z",
+        "updated_at": "2023-08-02T04:10:43.770Z",
+        "item_id": "c38116a3-d6e4-4542-90c4-9c5ab0d09b0b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9ee411a3-8e4a-48ca-b754-5a2141794987",
+        "batch_number": "FGHIJ",
+        "created_at": "2023-08-02T15:16:19.551Z",
+        "updated_at": "2023-08-02T03:22:55.366Z",
+        "item_id": "143a2e19-6c74-4c89-b590-ddbfb297b513",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "09351b12-e399-4a0d-941e-ed76c07b751c",
+        "batch_number": "KLMNO",
+        "created_at": "2023-08-01T23:46:31.906Z",
+        "updated_at": "2023-08-01T22:16:20.058Z",
+        "item_id": "c38116a3-d6e4-4542-90c4-9c5ab0d09b0b",
+        "user_id": "user_entity_pk"
+      }
+    ]
+  },
+  {
+    "people": [
+      {
+        "id": "c73d370d-ba9f-4720-a78d-12865c799342",
+        "name": "John Smith",
+        "role": "Professor",
+        "created_at": "2023-08-02T07:31:25.517Z",
+        "updated_at": "2023-08-01T21:53:52.025Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "de7fedb3-512f-4e82-b974-7cd281e6ff01",
+        "name": "Jane Doe",
+        "role": "Student",
+        "created_at": "2023-08-01T20:50:24.200Z",
+        "updated_at": "2023-08-01T21:13:57.244Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e42a1459-a8a5-41d4-b25e-e8bd5e6d84dc",
+        "name": "Michael Brown",
+        "role": "Researcher",
+        "created_at": "2023-08-01T18:48:07.249Z",
+        "updated_at": "2023-08-02T09:47:03.963Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cb72e84c-06ca-437f-be79-3435f2a7c5f2",
+        "name": "Sarah Jones",
+        "role": "Administrator",
+        "created_at": "2023-08-02T10:23:49.981Z",
+        "updated_at": "2023-08-01T17:30:59.114Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "70f8d00e-4947-4712-b650-50e07b60eae6",
+        "name": "David Wilson",
+        "role": "Alumni",
+        "created_at": "2023-08-02T05:07:03.287Z",
+        "updated_at": "2023-08-01T18:45:48.045Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "item_type": [
+      {
+        "id": "85cd30c0-1213-4979-a013-78b09eff9a90",
+        "type": "Electronics",
+        "created_at": "2023-08-02T08:46:46.911Z",
+        "updated_at": "2023-08-02T12:03:56.517Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4f075448-c7e7-4248-a209-bb345ff42bf5",
+        "type": "Clothing",
+        "created_at": "2023-08-02T14:20:46.428Z",
+        "updated_at": "2023-08-01T17:59:15.787Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c868aafd-fc05-421b-b6fc-2e56a9448108",
+        "type": "Books",
+        "created_at": "2023-08-02T08:18:06.513Z",
+        "updated_at": "2023-08-02T03:09:07.607Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6f5cd3ee-5fd9-482e-b430-774e13582a58",
+        "type": "Home Decor",
+        "created_at": "2023-08-02T15:26:29.228Z",
+        "updated_at": "2023-08-01T19:51:00.947Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4d2f9974-32f8-4d01-889f-49b592d65b58",
+        "type": "Sports Equipment",
+        "created_at": "2023-08-02T13:06:01.798Z",
+        "updated_at": "2023-08-02T02:49:36.904Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "item_category": [
+      {
+        "id": "9afe7717-5ef8-4347-a34d-14efa0ca40eb",
+        "category": "Electronics",
+        "created_at": "2023-08-02T10:10:11.918Z",
+        "updated_at": "2023-08-02T15:28:37.726Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2a96d6ae-a3fb-40fe-8ff9-6402daf9d4cf",
+        "category": "Fashion",
+        "created_at": "2023-08-02T11:30:28.289Z",
+        "updated_at": "2023-08-01T18:35:49.093Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7501f58f-1627-4f06-997f-cfc1fc5b6a02",
+        "category": "Books",
+        "created_at": "2023-08-02T08:03:13.938Z",
+        "updated_at": "2023-08-01T22:20:37.601Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2c0a562c-4156-48c6-9e88-0373748e3eeb",
+        "category": "Home & Living",
+        "created_at": "2023-08-01T17:04:34.552Z",
+        "updated_at": "2023-08-02T01:31:32.496Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c34df64c-c0c2-4694-96bf-255eb5260368",
+        "category": "Sports & Outdoors",
+        "created_at": "2023-08-02T04:10:31.193Z",
+        "updated_at": "2023-08-02T10:10:35.148Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "item": [
+      {
+        "id": "302caa0e-a835-41b2-bed0-5da9a27819be",
+        "name": "iPhone 12",
+        "created_at": "2023-08-02T15:04:27.840Z",
+        "updated_at": "2023-08-02T14:44:10.047Z",
+        "category_id": "c34df64c-c0c2-4694-96bf-255eb5260368",
+        "type_id": "c868aafd-fc05-421b-b6fc-2e56a9448108",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a9e4e906-9daf-4c64-ad2f-e29ed04843c8",
+        "name": "Designer Dress",
+        "created_at": "2023-08-02T00:08:46.892Z",
+        "updated_at": "2023-08-01T21:57:03.959Z",
+        "category_id": "2a96d6ae-a3fb-40fe-8ff9-6402daf9d4cf",
+        "type_id": "c868aafd-fc05-421b-b6fc-2e56a9448108",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "be6b37d0-9fd4-4f3d-9487-f4e651111ee0",
+        "name": "Harry Potter and the Sorcerer's Stone",
+        "created_at": "2023-08-02T03:04:27.981Z",
+        "updated_at": "2023-08-01T23:12:57.425Z",
+        "category_id": "7501f58f-1627-4f06-997f-cfc1fc5b6a02",
+        "type_id": "85cd30c0-1213-4979-a013-78b09eff9a90",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "67aa9d8e-aa44-4488-b1f3-3448f863c4aa",
+        "name": "Decorative Pillow",
+        "created_at": "2023-08-02T10:02:41.082Z",
+        "updated_at": "2023-08-01T20:46:19.194Z",
+        "category_id": "2c0a562c-4156-48c6-9e88-0373748e3eeb",
+        "type_id": "c868aafd-fc05-421b-b6fc-2e56a9448108",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bfefdd88-dc9f-4feb-b2b7-c322417bf65f",
+        "name": "Yoga Mat",
+        "created_at": "2023-08-02T15:27:24.098Z",
+        "updated_at": "2023-08-02T05:31:59.255Z",
+        "category_id": "7501f58f-1627-4f06-997f-cfc1fc5b6a02",
+        "type_id": "6f5cd3ee-5fd9-482e-b430-774e13582a58",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "transaction": [
+      {
+        "id": "c89d8086-eb8e-4617-a701-52397c950bfa",
+        "transaction_type": "Purchase",
+        "created_at": "2023-08-02T14:06:57.496Z",
+        "updated_at": "2023-08-02T15:34:30.278Z",
+        "item_id": "be6b37d0-9fd4-4f3d-9487-f4e651111ee0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fe5083d5-4f8b-48a7-83fb-215c20f037f7",
+        "transaction_type": "Sale",
+        "created_at": "2023-08-02T11:02:32.946Z",
+        "updated_at": "2023-08-02T02:21:43.799Z",
+        "item_id": "bfefdd88-dc9f-4feb-b2b7-c322417bf65f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d54e549f-f169-49ab-988c-5738e5567e51",
+        "transaction_type": "Rental",
+        "created_at": "2023-08-02T01:45:46.436Z",
+        "updated_at": "2023-08-02T07:14:51.683Z",
+        "item_id": "bfefdd88-dc9f-4feb-b2b7-c322417bf65f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a8ad9df8-7abd-4cce-b61b-4094ee216b27",
+        "transaction_type": "Exchange",
+        "created_at": "2023-08-01T20:57:44.350Z",
+        "updated_at": "2023-08-01T22:45:15.214Z",
+        "item_id": "67aa9d8e-aa44-4488-b1f3-3448f863c4aa",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "23e686a0-c289-4703-beb4-6a06fe200cf7",
+        "transaction_type": "Donation",
+        "created_at": "2023-08-01T21:26:32.902Z",
+        "updated_at": "2023-08-01T17:36:29.840Z",
+        "item_id": "a9e4e906-9daf-4c64-ad2f-e29ed04843c8",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "item_batch": [
+      {
+        "id": "f7526f77-1271-49ce-ab92-c8e7c193459d",
+        "batch_number": "12345",
+        "created_at": "2023-08-02T04:43:27.437Z",
+        "updated_at": "2023-08-02T15:48:39.835Z",
+        "item_id": "bfefdd88-dc9f-4feb-b2b7-c322417bf65f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9243e34e-b54d-4436-8714-3eba2117208f",
+        "batch_number": "67890",
+        "created_at": "2023-08-02T14:39:32.289Z",
+        "updated_at": "2023-08-02T14:17:46.535Z",
+        "item_id": "302caa0e-a835-41b2-bed0-5da9a27819be",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "83f8af9c-1181-49ea-8ac9-c47bcde4e5b3",
+        "batch_number": "ABCDE",
+        "created_at": "2023-08-02T00:34:04.157Z",
+        "updated_at": "2023-08-02T11:47:10.035Z",
+        "item_id": "302caa0e-a835-41b2-bed0-5da9a27819be",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4f42f966-34e6-496f-ba62-44bccb61bdcf",
+        "batch_number": "FGHIJ",
+        "created_at": "2023-08-02T00:02:40.284Z",
+        "updated_at": "2023-08-02T08:59:00.592Z",
+        "item_id": "be6b37d0-9fd4-4f3d-9487-f4e651111ee0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bc7eda19-0dae-45e2-9dfe-21f40924c2b6",
+        "batch_number": "KLMNO",
+        "created_at": "2023-08-02T09:53:53.277Z",
+        "updated_at": "2023-08-02T09:40:01.563Z",
+        "item_id": "67aa9d8e-aa44-4488-b1f3-3448f863c4aa",
+        "user_id": "user_entity_pk"
+      }
+    ]
+  },
+  {
+    "people": [
+      {
+        "id": "15a4cd1e-d4de-4af4-b4c1-08abd7035d80",
+        "name": "John Smith",
+        "role": "Professor",
+        "created_at": "2023-08-02T07:16:40.654Z",
+        "updated_at": "2023-08-02T06:14:45.945Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "90ec1af2-17af-454b-9067-159662117d06",
+        "name": "Jane Doe",
+        "role": "Student",
+        "created_at": "2023-08-02T02:08:22.724Z",
+        "updated_at": "2023-08-02T08:00:42.898Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ad66a22d-07cb-49d7-935d-a71966088ae9",
+        "name": "Michael Brown",
+        "role": "Researcher",
+        "created_at": "2023-08-02T11:21:08.772Z",
+        "updated_at": "2023-08-02T02:30:50.507Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8c95da13-7868-4801-9322-e158cf90cf79",
+        "name": "Sarah Jones",
+        "role": "Administrator",
+        "created_at": "2023-08-01T16:47:11.808Z",
+        "updated_at": "2023-08-02T09:57:15.205Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0af28056-e064-4ceb-afd9-86b269ea2a83",
+        "name": "David Wilson",
+        "role": "Alumni",
+        "created_at": "2023-08-02T05:46:35.269Z",
+        "updated_at": "2023-08-01T18:45:21.064Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "item_type": [
+      {
+        "id": "b54e6cfb-2fe7-41cc-9d05-7082982cdfc6",
+        "type": "Electronics",
+        "created_at": "2023-08-02T12:35:37.083Z",
+        "updated_at": "2023-08-02T03:19:32.954Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fed18861-ba42-4822-8059-c18666a66492",
+        "type": "Clothing",
+        "created_at": "2023-08-01T19:41:04.493Z",
+        "updated_at": "2023-08-02T10:24:14.527Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8b35a43b-e440-40c8-9dfb-430997502bfd",
+        "type": "Books",
+        "created_at": "2023-08-02T00:41:37.432Z",
+        "updated_at": "2023-08-02T09:51:49.267Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7e4de48d-b177-4cf1-ba72-31445955e6b3",
+        "type": "Home Decor",
+        "created_at": "2023-08-02T05:18:44.898Z",
+        "updated_at": "2023-08-02T02:30:56.392Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3c7c035c-e48e-4335-9db1-218b72239215",
+        "type": "Sports Equipment",
+        "created_at": "2023-08-01T19:32:18.505Z",
+        "updated_at": "2023-08-02T12:48:27.090Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "item_category": [
+      {
+        "id": "719ec27e-f441-48bb-9165-2fed8a162080",
+        "category": "Electronics",
+        "created_at": "2023-08-02T14:59:11.728Z",
+        "updated_at": "2023-08-01T17:46:14.758Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a0ab5728-4d87-47d3-a90e-d74b6cb952b2",
+        "category": "Fashion",
+        "created_at": "2023-08-02T13:14:38.451Z",
+        "updated_at": "2023-08-02T00:31:42.627Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "91bf1658-d16e-483d-96bf-be757f35c3d0",
+        "category": "Books",
+        "created_at": "2023-08-01T18:39:21.581Z",
+        "updated_at": "2023-08-02T05:41:58.415Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9b2cf1cf-9350-4db6-8c3a-7a633bf7a827",
+        "category": "Home & Living",
+        "created_at": "2023-08-02T12:16:19.069Z",
+        "updated_at": "2023-08-02T02:30:23.158Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "49fd7b03-1e8f-49d2-87e7-5c1a2f8f936e",
+        "category": "Sports & Outdoors",
+        "created_at": "2023-08-02T02:29:50.608Z",
+        "updated_at": "2023-08-01T23:58:47.197Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "item": [
+      {
+        "id": "467cc786-1de0-49e5-86a5-1a5733a61c6e",
+        "name": "iPhone 12",
+        "created_at": "2023-08-02T08:16:36.991Z",
+        "updated_at": "2023-08-02T08:14:29.302Z",
+        "category_id": "719ec27e-f441-48bb-9165-2fed8a162080",
+        "type_id": "8b35a43b-e440-40c8-9dfb-430997502bfd",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "29c2d3cb-3792-4293-9f56-35821875d197",
+        "name": "Designer Dress",
+        "created_at": "2023-08-02T04:19:49.938Z",
+        "updated_at": "2023-08-01T17:34:44.235Z",
+        "category_id": "49fd7b03-1e8f-49d2-87e7-5c1a2f8f936e",
+        "type_id": "fed18861-ba42-4822-8059-c18666a66492",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3533609d-49ac-472c-8552-85a910d546f7",
+        "name": "Harry Potter and the Sorcerer's Stone",
+        "created_at": "2023-08-02T11:13:00.377Z",
+        "updated_at": "2023-08-01T19:27:31.445Z",
+        "category_id": "719ec27e-f441-48bb-9165-2fed8a162080",
+        "type_id": "fed18861-ba42-4822-8059-c18666a66492",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c1262c3a-8e8a-4f1c-a352-c1ec5f93844d",
+        "name": "Decorative Pillow",
+        "created_at": "2023-08-01T19:49:50.372Z",
+        "updated_at": "2023-08-01T18:07:59.488Z",
+        "category_id": "49fd7b03-1e8f-49d2-87e7-5c1a2f8f936e",
+        "type_id": "fed18861-ba42-4822-8059-c18666a66492",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "940085e3-92a7-4c72-a0c0-741c6e4afe3f",
+        "name": "Yoga Mat",
+        "created_at": "2023-08-02T03:08:31.011Z",
+        "updated_at": "2023-08-02T07:56:13.671Z",
+        "category_id": "49fd7b03-1e8f-49d2-87e7-5c1a2f8f936e",
+        "type_id": "fed18861-ba42-4822-8059-c18666a66492",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "transaction": [
+      {
+        "id": "3d0ae684-dbd2-4bff-ae45-c5b1e4cd74a0",
+        "transaction_type": "Purchase",
+        "created_at": "2023-08-02T01:52:42.417Z",
+        "updated_at": "2023-08-02T15:29:45.287Z",
+        "item_id": "29c2d3cb-3792-4293-9f56-35821875d197",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d5b67641-6144-4596-9b20-13f405d74982",
+        "transaction_type": "Sale",
+        "created_at": "2023-08-02T09:24:35.760Z",
+        "updated_at": "2023-08-02T14:22:57.669Z",
+        "item_id": "c1262c3a-8e8a-4f1c-a352-c1ec5f93844d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8ea0283f-28d8-4dbb-adb3-4ef80829461f",
+        "transaction_type": "Rental",
+        "created_at": "2023-08-01T21:56:47.221Z",
+        "updated_at": "2023-08-02T07:49:37.978Z",
+        "item_id": "940085e3-92a7-4c72-a0c0-741c6e4afe3f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e423cf7a-cd94-4e35-b2fa-1663c091c531",
+        "transaction_type": "Exchange",
+        "created_at": "2023-08-02T11:12:07.909Z",
+        "updated_at": "2023-08-01T19:19:35.684Z",
+        "item_id": "940085e3-92a7-4c72-a0c0-741c6e4afe3f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6c95b766-959b-4c6d-b39b-d742f20e9c60",
+        "transaction_type": "Donation",
+        "created_at": "2023-08-02T00:35:25.574Z",
+        "updated_at": "2023-08-02T04:34:36.162Z",
+        "item_id": "29c2d3cb-3792-4293-9f56-35821875d197",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "item_batch": [
+      {
+        "id": "3d521e50-21e8-449d-9d99-d496083d0f6a",
+        "batch_number": "12345",
+        "created_at": "2023-08-02T13:33:35.816Z",
+        "updated_at": "2023-08-01T18:35:43.113Z",
+        "item_id": "467cc786-1de0-49e5-86a5-1a5733a61c6e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5831853d-5e11-426b-af35-42b478e7f25a",
+        "batch_number": "67890",
+        "created_at": "2023-08-01T21:32:35.267Z",
+        "updated_at": "2023-08-02T04:27:43.215Z",
+        "item_id": "29c2d3cb-3792-4293-9f56-35821875d197",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "aebefc49-6e17-4f08-bb77-3b09dcac1d47",
+        "batch_number": "ABCDE",
+        "created_at": "2023-08-02T01:57:39.526Z",
+        "updated_at": "2023-08-01T19:39:58.986Z",
+        "item_id": "29c2d3cb-3792-4293-9f56-35821875d197",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "134ca656-9f79-4a6d-bf8a-6245beadd5d2",
+        "batch_number": "FGHIJ",
+        "created_at": "2023-08-02T06:13:21.330Z",
+        "updated_at": "2023-08-02T01:10:58.033Z",
+        "item_id": "467cc786-1de0-49e5-86a5-1a5733a61c6e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d49900f7-7574-4685-8aac-28e29be36394",
+        "batch_number": "KLMNO",
+        "created_at": "2023-08-02T08:07:25.888Z",
+        "updated_at": "2023-08-01T19:26:08.627Z",
+        "item_id": "29c2d3cb-3792-4293-9f56-35821875d197",
+        "user_id": "user_entity_pk"
+      }
+    ]
+  },
+  {
+    "people": [
+      {
+        "id": "043fd83f-86fc-4ed9-ac4a-60efb542500a",
+        "name": "John Smith",
+        "role": "Professor",
+        "created_at": "2023-08-02T12:30:01.429Z",
+        "updated_at": "2023-08-02T03:05:04.668Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "afb0e6c0-08f3-4a82-843c-f08ec6a81a75",
+        "name": "Jane Doe",
+        "role": "Student",
+        "created_at": "2023-08-02T12:52:09.579Z",
+        "updated_at": "2023-08-01T19:27:34.087Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0bdc268a-d910-403c-b2bb-221719a670d0",
+        "name": "Michael Brown",
+        "role": "Researcher",
+        "created_at": "2023-08-02T13:58:40.850Z",
+        "updated_at": "2023-08-02T12:26:59.444Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c1164dba-0a4b-46bb-baeb-d8301539eaeb",
+        "name": "Sarah Jones",
+        "role": "Administrator",
+        "created_at": "2023-08-02T05:47:38.417Z",
+        "updated_at": "2023-08-02T06:14:05.209Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a698497a-513e-4869-b5c4-6d5a3037823a",
+        "name": "David Wilson",
+        "role": "Alumni",
+        "created_at": "2023-08-02T08:13:51.144Z",
+        "updated_at": "2023-08-01T22:55:59.933Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "item_type": [
+      {
+        "id": "6f2e6601-f11c-4640-8041-6142b6976f99",
+        "type": "Electronics",
+        "created_at": "2023-08-02T05:25:29.222Z",
+        "updated_at": "2023-08-02T01:10:57.173Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a3fa8c49-3ee8-4861-b96e-a117c8500649",
+        "type": "Clothing",
+        "created_at": "2023-08-02T11:42:03.731Z",
+        "updated_at": "2023-08-02T14:09:17.339Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a40560d5-7551-4c80-8cd6-c41eda3b1c64",
+        "type": "Books",
+        "created_at": "2023-08-02T11:47:12.494Z",
+        "updated_at": "2023-08-02T09:32:57.276Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bc3e0e5e-606a-4bc9-b115-1876a3253a7f",
+        "type": "Furniture",
+        "created_at": "2023-08-02T08:12:22.265Z",
+        "updated_at": "2023-08-02T09:08:28.119Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a216509d-1586-4865-8021-e9da8838fd56",
+        "type": "Sports Equipment",
+        "created_at": "2023-08-01T23:34:52.469Z",
+        "updated_at": "2023-08-01T19:31:52.380Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "item_category": [
+      {
+        "id": "992b68eb-4c8b-4bb9-9006-2d13c30013c2",
+        "category": "Electronics",
+        "created_at": "2023-08-02T06:38:34.170Z",
+        "updated_at": "2023-08-02T06:26:18.501Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4fbccc02-b4d8-4924-83db-cf31f88dc99c",
+        "category": "Fashion",
+        "created_at": "2023-08-02T09:26:33.488Z",
+        "updated_at": "2023-08-01T22:41:05.557Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3a992e41-84e1-44da-bfad-d909275d7fea",
+        "category": "Books",
+        "created_at": "2023-08-02T04:09:55.153Z",
+        "updated_at": "2023-08-02T03:20:57.160Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f4fe1941-36bd-49df-bb57-9cf59fce9ff2",
+        "category": "Home Decor",
+        "created_at": "2023-08-02T07:26:59.131Z",
+        "updated_at": "2023-08-02T05:58:16.264Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dee2a092-33cf-4580-a0c3-8cea54712074",
+        "category": "Sports",
+        "created_at": "2023-08-02T15:22:14.523Z",
+        "updated_at": "2023-08-02T04:18:57.835Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "item": [
+      {
+        "id": "aefdd068-6465-4cde-93cb-34d68e996f75",
+        "name": "iPhone 12",
+        "created_at": "2023-08-02T14:00:54.051Z",
+        "updated_at": "2023-08-02T03:05:02.739Z",
+        "category_id": "3a992e41-84e1-44da-bfad-d909275d7fea",
+        "type_id": "a3fa8c49-3ee8-4861-b96e-a117c8500649",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8a004e05-3dd9-4e51-9ada-97cb8a7fc418",
+        "name": "Designer Dress",
+        "created_at": "2023-08-02T08:36:06.454Z",
+        "updated_at": "2023-08-01T19:57:50.225Z",
+        "category_id": "f4fe1941-36bd-49df-bb57-9cf59fce9ff2",
+        "type_id": "6f2e6601-f11c-4640-8041-6142b6976f99",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e7ccead9-e9dd-49ea-bb54-1969fc92c61e",
+        "name": "Harry Potter and the Sorcerer's Stone",
+        "created_at": "2023-08-02T13:08:56.624Z",
+        "updated_at": "2023-08-02T08:25:06.087Z",
+        "category_id": "dee2a092-33cf-4580-a0c3-8cea54712074",
+        "type_id": "bc3e0e5e-606a-4bc9-b115-1876a3253a7f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c2605b50-60ed-4411-b3a7-0319487be90f",
+        "name": "Modern Coffee Table",
+        "created_at": "2023-08-02T15:14:01.824Z",
+        "updated_at": "2023-08-02T13:58:26.492Z",
+        "category_id": "f4fe1941-36bd-49df-bb57-9cf59fce9ff2",
+        "type_id": "bc3e0e5e-606a-4bc9-b115-1876a3253a7f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "50061604-32fa-4046-ad9b-fa17821662be",
+        "name": "Yoga Mat",
+        "created_at": "2023-08-02T01:34:59.994Z",
+        "updated_at": "2023-08-02T05:04:20.223Z",
+        "category_id": "f4fe1941-36bd-49df-bb57-9cf59fce9ff2",
+        "type_id": "a3fa8c49-3ee8-4861-b96e-a117c8500649",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "transaction": [
+      {
+        "id": "f6dd4304-da05-42e5-8374-d802391c86bc",
+        "transaction_type": "Purchase",
+        "created_at": "2023-08-02T10:36:55.584Z",
+        "updated_at": "2023-08-01T17:25:16.848Z",
+        "item_id": "50061604-32fa-4046-ad9b-fa17821662be",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bc2fb898-3fc6-4ae6-9c72-5e8498e7793c",
+        "transaction_type": "Sale",
+        "created_at": "2023-08-02T10:00:58.919Z",
+        "updated_at": "2023-08-01T17:36:12.811Z",
+        "item_id": "c2605b50-60ed-4411-b3a7-0319487be90f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e4e442ff-65c4-41d2-bde3-9f0eb6496674",
+        "transaction_type": "Rental",
+        "created_at": "2023-08-02T06:54:47.637Z",
+        "updated_at": "2023-08-02T03:44:39.447Z",
+        "item_id": "8a004e05-3dd9-4e51-9ada-97cb8a7fc418",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2104ac06-6a64-4d2a-a6c9-695374257c53",
+        "transaction_type": "Exchange",
+        "created_at": "2023-08-02T13:25:57.682Z",
+        "updated_at": "2023-08-02T08:45:55.000Z",
+        "item_id": "c2605b50-60ed-4411-b3a7-0319487be90f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3188ce03-64ed-4a45-b5f9-dd29dbe1810d",
+        "transaction_type": "Donation",
+        "created_at": "2023-08-02T10:48:01.359Z",
+        "updated_at": "2023-08-02T09:21:32.761Z",
+        "item_id": "c2605b50-60ed-4411-b3a7-0319487be90f",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "item_batch": [
+      {
+        "id": "f6423b3c-4864-4c24-b589-3870fb6f1b96",
+        "batch_number": "12345",
+        "created_at": "2023-08-01T22:33:21.961Z",
+        "updated_at": "2023-08-02T07:06:35.714Z",
+        "item_id": "aefdd068-6465-4cde-93cb-34d68e996f75",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "62a129de-4170-4119-be5c-61bd0f7ca3ba",
+        "batch_number": "67890",
+        "created_at": "2023-08-02T08:02:39.178Z",
+        "updated_at": "2023-08-02T03:04:28.933Z",
+        "item_id": "aefdd068-6465-4cde-93cb-34d68e996f75",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5fb8088f-cc1e-4a16-bee1-b3ba41fa6341",
+        "batch_number": "ABCDE",
+        "created_at": "2023-08-01T21:26:34.788Z",
+        "updated_at": "2023-08-01T22:03:20.163Z",
+        "item_id": "aefdd068-6465-4cde-93cb-34d68e996f75",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f56497b2-ee61-4feb-9697-b3a12d392b7c",
+        "batch_number": "FGHIJ",
+        "created_at": "2023-08-02T00:29:18.324Z",
+        "updated_at": "2023-08-01T20:26:36.438Z",
+        "item_id": "c2605b50-60ed-4411-b3a7-0319487be90f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c9363f3f-7e73-41f1-be57-b1f08cf94488",
+        "batch_number": "KLMNO",
+        "created_at": "2023-08-02T14:29:34.320Z",
+        "updated_at": "2023-08-02T04:53:50.627Z",
+        "item_id": "e7ccead9-e9dd-49ea-bb54-1969fc92c61e",
+        "user_id": "user_entity_pk"
+      }
+    ]
+  },
+  {
+    "people": [
+      {
+        "id": "7c0384d2-6cff-458e-97f4-2bcdf564bb61",
+        "name": "John Smith",
+        "role": "Professor",
+        "created_at": "2023-08-02T02:21:07.036Z",
+        "updated_at": "2023-08-02T11:45:24.267Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "74c6e57f-8ce7-4ec8-bae5-81a1b2fd66ec",
+        "name": "Jane Doe",
+        "role": "Student",
+        "created_at": "2023-08-02T13:19:11.728Z",
+        "updated_at": "2023-08-02T00:26:18.291Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "de387b30-1eb2-4a11-b870-248bfd511c14",
+        "name": "Michael Brown",
+        "role": "Researcher",
+        "created_at": "2023-08-02T01:31:43.938Z",
+        "updated_at": "2023-08-02T00:42:41.981Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6899cf37-a968-480d-ad04-1c838514d1aa",
+        "name": "Sarah Jones",
+        "role": "Administrator",
+        "created_at": "2023-08-02T09:57:03.306Z",
+        "updated_at": "2023-08-02T09:41:30.567Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6d7920e2-d1ab-474d-beea-5a6939261a20",
+        "name": "David Wilson",
+        "role": "Alumni",
+        "created_at": "2023-08-02T03:08:17.340Z",
+        "updated_at": "2023-08-02T15:06:35.743Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "item_type": [
+      {
+        "id": "ffa29614-ea8c-4533-8029-12c49ee4096c",
+        "type": "Electronics",
+        "created_at": "2023-08-02T04:06:40.783Z",
+        "updated_at": "2023-08-02T08:41:59.893Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "941c45c4-55b3-4d68-98c4-34839baddc5f",
+        "type": "Clothing",
+        "created_at": "2023-08-02T03:59:53.057Z",
+        "updated_at": "2023-08-02T09:28:04.482Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bc48bb60-bbd5-4c36-8aff-11963ac9da7c",
+        "type": "Books",
+        "created_at": "2023-08-01T17:48:15.512Z",
+        "updated_at": "2023-08-02T14:07:54.347Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4d258abe-8b52-4952-90e2-69ff2b18e23a",
+        "type": "Home Decor",
+        "created_at": "2023-08-02T13:02:24.123Z",
+        "updated_at": "2023-08-02T01:57:44.795Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5adeb310-6b6b-4dde-9750-b3afea110ade",
+        "type": "Sports Equipment",
+        "created_at": "2023-08-01T21:30:26.504Z",
+        "updated_at": "2023-08-01T18:44:10.222Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "item_category": [
+      {
+        "id": "1bf04ad4-affc-48c0-8d3e-a39e2e3bb264",
+        "category": "Electronics",
+        "created_at": "2023-08-02T01:41:35.427Z",
+        "updated_at": "2023-08-02T12:25:52.756Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0e59018d-d525-4d0d-bc5d-f4ea2a2604a5",
+        "category": "Fashion",
+        "created_at": "2023-08-02T14:43:44.705Z",
+        "updated_at": "2023-08-02T15:28:04.452Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "576d4313-dd72-4b63-8db4-9c08b66e3bc3",
+        "category": "Books",
+        "created_at": "2023-08-02T08:53:00.818Z",
+        "updated_at": "2023-08-01T18:50:52.548Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8382cdd8-eb36-44fe-b16e-267ba33968fb",
+        "category": "Home & Living",
+        "created_at": "2023-08-01T21:22:56.108Z",
+        "updated_at": "2023-08-01T22:47:37.469Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2a744283-4839-4a8c-a4b7-d3a0d359fc58",
+        "category": "Sports & Outdoors",
+        "created_at": "2023-08-02T15:11:59.288Z",
+        "updated_at": "2023-08-02T15:41:32.278Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "item": [
+      {
+        "id": "e9a83ea0-59df-4a30-9321-bf878706f9af",
+        "name": "iPhone 12",
+        "created_at": "2023-08-01T18:12:58.121Z",
+        "updated_at": "2023-08-01T18:12:11.563Z",
+        "category_id": "2a744283-4839-4a8c-a4b7-d3a0d359fc58",
+        "type_id": "4d258abe-8b52-4952-90e2-69ff2b18e23a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4a4c7a2a-c4d5-40be-af2b-48cb1f0dfd13",
+        "name": "Designer Dress",
+        "created_at": "2023-08-01T19:53:00.606Z",
+        "updated_at": "2023-08-01T17:46:58.315Z",
+        "category_id": "1bf04ad4-affc-48c0-8d3e-a39e2e3bb264",
+        "type_id": "5adeb310-6b6b-4dde-9750-b3afea110ade",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "56699f9c-f987-4ec6-a670-a0567d805e43",
+        "name": "Harry Potter and the Sorcerer's Stone",
+        "created_at": "2023-08-01T17:06:27.535Z",
+        "updated_at": "2023-08-01T22:56:06.183Z",
+        "category_id": "576d4313-dd72-4b63-8db4-9c08b66e3bc3",
+        "type_id": "941c45c4-55b3-4d68-98c4-34839baddc5f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "aae42c50-6930-4a1b-9b46-f77b7a8ea9af",
+        "name": "Decorative Pillow",
+        "created_at": "2023-08-01T19:49:42.187Z",
+        "updated_at": "2023-08-02T07:17:42.052Z",
+        "category_id": "8382cdd8-eb36-44fe-b16e-267ba33968fb",
+        "type_id": "ffa29614-ea8c-4533-8029-12c49ee4096c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b0f601de-335d-48f7-b499-2d7ceacd3b2b",
+        "name": "Yoga Mat",
+        "created_at": "2023-08-02T10:52:26.597Z",
+        "updated_at": "2023-08-02T00:05:32.406Z",
+        "category_id": "8382cdd8-eb36-44fe-b16e-267ba33968fb",
+        "type_id": "4d258abe-8b52-4952-90e2-69ff2b18e23a",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "transaction": [
+      {
+        "id": "62e2daa2-a259-4027-92a8-d7037d288acb",
+        "transaction_type": "Purchase",
+        "created_at": "2023-08-02T12:50:27.191Z",
+        "updated_at": "2023-08-02T15:42:51.481Z",
+        "item_id": "b0f601de-335d-48f7-b499-2d7ceacd3b2b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6376659c-bbf5-44e9-b448-7c74c022289c",
+        "transaction_type": "Sale",
+        "created_at": "2023-08-02T02:49:00.719Z",
+        "updated_at": "2023-08-02T08:27:00.980Z",
+        "item_id": "e9a83ea0-59df-4a30-9321-bf878706f9af",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7be46010-6c8c-423e-b56b-7c332fc25f1f",
+        "transaction_type": "Rental",
+        "created_at": "2023-08-02T14:20:39.277Z",
+        "updated_at": "2023-08-02T01:33:35.524Z",
+        "item_id": "4a4c7a2a-c4d5-40be-af2b-48cb1f0dfd13",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a1b2c4ea-053e-4e3e-942f-b820a01d816e",
+        "transaction_type": "Exchange",
+        "created_at": "2023-08-02T05:49:22.325Z",
+        "updated_at": "2023-08-01T19:08:43.791Z",
+        "item_id": "56699f9c-f987-4ec6-a670-a0567d805e43",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8611db30-b9d4-4d48-a0f4-b5311a2b50c4",
+        "transaction_type": "Donation",
+        "created_at": "2023-08-02T06:43:13.457Z",
+        "updated_at": "2023-08-02T14:27:36.761Z",
+        "item_id": "e9a83ea0-59df-4a30-9321-bf878706f9af",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "item_batch": [
+      {
+        "id": "3791ee93-af0d-46ff-9f03-6fca61b7f2dd",
+        "batch_number": "12345",
+        "created_at": "2023-08-02T10:08:52.315Z",
+        "updated_at": "2023-08-02T11:27:07.308Z",
+        "item_id": "b0f601de-335d-48f7-b499-2d7ceacd3b2b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7d7d2c75-fca1-49e4-8a06-f1214f8561d2",
+        "batch_number": "67890",
+        "created_at": "2023-08-02T00:11:29.398Z",
+        "updated_at": "2023-08-01T20:41:15.296Z",
+        "item_id": "b0f601de-335d-48f7-b499-2d7ceacd3b2b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1f7177cf-ecdd-4836-b03c-e85d421602da",
+        "batch_number": "ABCDE",
+        "created_at": "2023-08-02T10:19:32.229Z",
+        "updated_at": "2023-08-01T22:36:47.656Z",
+        "item_id": "e9a83ea0-59df-4a30-9321-bf878706f9af",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "85d08e95-168b-4760-abd2-97d0e1a276bd",
+        "batch_number": "FGHIJ",
+        "created_at": "2023-08-01T18:57:10.691Z",
+        "updated_at": "2023-08-01T23:31:58.420Z",
+        "item_id": "b0f601de-335d-48f7-b499-2d7ceacd3b2b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d132c654-e2ef-4cc2-8695-5c482ae3ab26",
+        "batch_number": "KLMNO",
+        "created_at": "2023-08-02T06:39:08.905Z",
+        "updated_at": "2023-08-02T05:14:06.732Z",
+        "item_id": "b0f601de-335d-48f7-b499-2d7ceacd3b2b",
+        "user_id": "user_entity_pk"
+      }
+    ]
+  },
+  {
+    "people": [
+      {
+        "id": "48cdd997-ae3d-4c94-af82-4430297b1dc0",
+        "name": "John Smith",
+        "role": "Professor",
+        "created_at": "2023-08-02T11:28:51.452Z",
+        "updated_at": "2023-08-02T12:34:00.416Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b4f74b95-0c38-4ac9-81d8-46a013987329",
+        "name": "Jane Doe",
+        "role": "Student",
+        "created_at": "2023-08-01T19:43:56.349Z",
+        "updated_at": "2023-08-02T10:55:59.415Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c1c4bc6b-9cef-4f31-8f16-f316d1b25d75",
+        "name": "Michael Brown",
+        "role": "Researcher",
+        "created_at": "2023-08-02T07:50:40.673Z",
+        "updated_at": "2023-08-01T22:48:40.643Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7a006011-8439-4886-9a67-2df0632ea74c",
+        "name": "Sarah Jones",
+        "role": "Administrator",
+        "created_at": "2023-08-02T13:08:16.936Z",
+        "updated_at": "2023-08-02T02:06:32.230Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "deb58297-7faa-40a1-8428-16fbd982db85",
+        "name": "David Wilson",
+        "role": "Alumni",
+        "created_at": "2023-08-01T19:52:54.885Z",
+        "updated_at": "2023-08-02T02:15:25.596Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "item_type": [
+      {
+        "id": "19e60e6a-593e-4a9e-97d5-0e32e93d2401",
+        "type": "Electronics",
+        "created_at": "2023-08-02T00:42:08.711Z",
+        "updated_at": "2023-08-01T23:11:12.827Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ce3aac75-3a0b-4552-8d21-5443716bcae5",
+        "type": "Clothing",
+        "created_at": "2023-08-02T01:31:04.824Z",
+        "updated_at": "2023-08-02T12:58:38.336Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e264622c-feb7-4be6-b513-59b530108189",
+        "type": "Books",
+        "created_at": "2023-08-02T14:27:22.432Z",
+        "updated_at": "2023-08-02T01:49:51.949Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7ee348fd-5b37-4293-8c82-d359a29d7c42",
+        "type": "Home Decor",
+        "created_at": "2023-08-02T09:32:34.435Z",
+        "updated_at": "2023-08-02T09:29:33.467Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e53a6346-ba4b-48d8-9fc8-dfe8ddaba15b",
+        "type": "Sports Equipment",
+        "created_at": "2023-08-01T18:14:38.354Z",
+        "updated_at": "2023-08-02T15:29:54.313Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "item_category": [
+      {
+        "id": "58fd6e30-c9f6-4549-96f2-862197cf0cb0",
+        "category": "Electronics",
+        "created_at": "2023-08-01T16:06:59.080Z",
+        "updated_at": "2023-08-01T21:55:30.168Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1e8f1025-31e6-4520-a9da-30ac9a0b4615",
+        "category": "Fashion",
+        "created_at": "2023-08-02T05:12:00.132Z",
+        "updated_at": "2023-08-02T02:24:32.749Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9771869f-f75c-487e-a4bd-cca299e67dac",
+        "category": "Books",
+        "created_at": "2023-08-02T14:32:07.544Z",
+        "updated_at": "2023-08-02T04:03:45.683Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cf119ab3-8cbb-428d-9d14-469af1d4e2ff",
+        "category": "Home & Garden",
+        "created_at": "2023-08-02T05:17:52.012Z",
+        "updated_at": "2023-08-02T08:27:01.538Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4a184c69-fa1d-475e-928c-0467b1045e70",
+        "category": "Sports & Outdoors",
+        "created_at": "2023-08-02T09:24:54.348Z",
+        "updated_at": "2023-08-02T08:19:38.574Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "item": [
+      {
+        "id": "22827f9a-2792-4668-ad98-5c0107beeff2",
+        "name": "iPhone 12",
+        "created_at": "2023-08-02T07:09:10.187Z",
+        "updated_at": "2023-08-02T07:40:38.583Z",
+        "category_id": "1e8f1025-31e6-4520-a9da-30ac9a0b4615",
+        "type_id": "7ee348fd-5b37-4293-8c82-d359a29d7c42",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c8ebc440-d868-477a-9384-77f82bdff9b7",
+        "name": "Designer Dress",
+        "created_at": "2023-08-02T11:58:23.761Z",
+        "updated_at": "2023-08-02T14:38:50.121Z",
+        "category_id": "4a184c69-fa1d-475e-928c-0467b1045e70",
+        "type_id": "ce3aac75-3a0b-4552-8d21-5443716bcae5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "25867982-3f72-4715-8789-bcf4a7a5efbb",
+        "name": "Harry Potter and the Sorcerer's Stone",
+        "created_at": "2023-08-02T13:18:36.890Z",
+        "updated_at": "2023-08-01T20:00:24.878Z",
+        "category_id": "9771869f-f75c-487e-a4bd-cca299e67dac",
+        "type_id": "7ee348fd-5b37-4293-8c82-d359a29d7c42",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3ccc2c6a-9d84-44cb-bc74-78248b0240be",
+        "name": "Decorative Pillow",
+        "created_at": "2023-08-02T02:05:07.541Z",
+        "updated_at": "2023-08-01T16:11:53.518Z",
+        "category_id": "cf119ab3-8cbb-428d-9d14-469af1d4e2ff",
+        "type_id": "19e60e6a-593e-4a9e-97d5-0e32e93d2401",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f6baf112-ede3-4bee-902c-fd4928c5affa",
+        "name": "Yoga Mat",
+        "created_at": "2023-08-02T14:43:57.393Z",
+        "updated_at": "2023-08-02T02:05:30.583Z",
+        "category_id": "1e8f1025-31e6-4520-a9da-30ac9a0b4615",
+        "type_id": "e53a6346-ba4b-48d8-9fc8-dfe8ddaba15b",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "transaction": [
+      {
+        "id": "a5dfbaa6-6bc2-4fac-8b73-71c8f725a52b",
+        "transaction_type": "Purchase",
+        "created_at": "2023-08-02T13:46:01.646Z",
+        "updated_at": "2023-08-02T01:48:34.702Z",
+        "item_id": "25867982-3f72-4715-8789-bcf4a7a5efbb",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "821d8ee5-7ec6-4842-9c5f-ac98195385be",
+        "transaction_type": "Sale",
+        "created_at": "2023-08-02T04:20:52.715Z",
+        "updated_at": "2023-08-02T02:07:15.121Z",
+        "item_id": "25867982-3f72-4715-8789-bcf4a7a5efbb",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d0b4087c-af94-4da4-8ed9-e07e9bda89af",
+        "transaction_type": "Rental",
+        "created_at": "2023-08-02T05:58:31.773Z",
+        "updated_at": "2023-08-02T12:15:51.418Z",
+        "item_id": "f6baf112-ede3-4bee-902c-fd4928c5affa",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6a052bd1-055b-4386-98fb-4dd9a98df3fe",
+        "transaction_type": "Exchange",
+        "created_at": "2023-08-02T12:27:18.776Z",
+        "updated_at": "2023-08-02T13:30:08.530Z",
+        "item_id": "22827f9a-2792-4668-ad98-5c0107beeff2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e6283761-b6ad-49fb-a1ca-7742e86657bf",
+        "transaction_type": "Donation",
+        "created_at": "2023-08-01T21:14:46.913Z",
+        "updated_at": "2023-08-02T11:14:35.993Z",
+        "item_id": "22827f9a-2792-4668-ad98-5c0107beeff2",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "item_batch": [
+      {
+        "id": "2eaf39a6-c1fa-4b16-ad88-af1ff2b8bb4f",
+        "batch_number": "12345",
+        "created_at": "2023-08-01T23:01:31.879Z",
+        "updated_at": "2023-08-01T22:46:54.754Z",
+        "item_id": "25867982-3f72-4715-8789-bcf4a7a5efbb",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "37930674-251d-49e2-b451-a3df4ef67ee3",
+        "batch_number": "67890",
+        "created_at": "2023-08-01T19:36:14.886Z",
+        "updated_at": "2023-08-01T20:37:02.321Z",
+        "item_id": "22827f9a-2792-4668-ad98-5c0107beeff2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b2be1bea-e24f-4ee9-b605-efdef3fbab0b",
+        "batch_number": "ABCDE",
+        "created_at": "2023-08-02T02:35:26.416Z",
+        "updated_at": "2023-08-01T19:22:34.139Z",
+        "item_id": "22827f9a-2792-4668-ad98-5c0107beeff2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "18f08fe7-1780-4e58-af71-a573b5d5446f",
+        "batch_number": "FGHIJ",
+        "created_at": "2023-08-01T19:51:50.425Z",
+        "updated_at": "2023-08-01T22:35:17.092Z",
+        "item_id": "c8ebc440-d868-477a-9384-77f82bdff9b7",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "211d18ce-14c5-4a54-9535-e4c84634aa81",
+        "batch_number": "KLMNO",
+        "created_at": "2023-08-02T04:27:54.216Z",
+        "updated_at": "2023-08-02T00:16:21.048Z",
+        "item_id": "c8ebc440-d868-477a-9384-77f82bdff9b7",
+        "user_id": "user_entity_pk"
+      }
+    ]
+  },
+  {
+    "people": [
+      {
+        "id": "ff080813-e132-46b6-98f7-a147d6edd50b",
+        "name": "John Smith",
+        "role": "Professor",
+        "created_at": "2023-08-02T06:34:17.490Z",
+        "updated_at": "2023-08-02T14:00:01.482Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7017b73c-724b-4900-bd95-8c935bb0a018",
+        "name": "Jane Doe",
+        "role": "Student",
+        "created_at": "2023-08-01T18:33:27.159Z",
+        "updated_at": "2023-08-02T13:36:26.193Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2d0fe74a-c2d6-4311-a964-c4164e6f37e2",
+        "name": "Michael Brown",
+        "role": "Researcher",
+        "created_at": "2023-08-01T16:55:23.474Z",
+        "updated_at": "2023-08-02T15:51:37.497Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6d12ef08-d947-4214-bb98-ca51354a0c75",
+        "name": "Sarah Jones",
+        "role": "Administrator",
+        "created_at": "2023-08-02T13:34:01.681Z",
+        "updated_at": "2023-08-01T17:18:17.143Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "01c667f8-feab-48c4-95e7-e5d24e5af4da",
+        "name": "David Wilson",
+        "role": "Alumni",
+        "created_at": "2023-08-02T01:05:44.211Z",
+        "updated_at": "2023-08-01T22:21:05.185Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "item_type": [
+      {
+        "id": "90041ce5-a4a7-48de-9758-99c4a2fbd635",
+        "type": "Electronics",
+        "created_at": "2023-08-02T08:19:27.936Z",
+        "updated_at": "2023-08-01T23:33:00.074Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5f2e2684-da6b-40f5-9611-7c7048c4676b",
+        "type": "Clothing",
+        "created_at": "2023-08-02T10:37:45.943Z",
+        "updated_at": "2023-08-01T21:49:04.359Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0a5352aa-0765-4191-866d-4e5b1924cacc",
+        "type": "Books",
+        "created_at": "2023-08-02T14:12:20.571Z",
+        "updated_at": "2023-08-01T21:02:01.560Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "df49abc6-c53b-4f9f-8ebc-0a984e0377b9",
+        "type": "Home Decor",
+        "created_at": "2023-08-02T13:35:50.494Z",
+        "updated_at": "2023-08-01T23:58:49.010Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8cd8a966-a137-44b5-83e0-2acf1c1c63ce",
+        "type": "Sports Equipment",
+        "created_at": "2023-08-02T11:50:58.721Z",
+        "updated_at": "2023-08-02T04:07:30.636Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "item_category": [
+      {
+        "id": "d342ee29-dea7-4233-9699-59cd2091c939",
+        "category": "Electronics",
+        "created_at": "2023-08-02T04:13:04.434Z",
+        "updated_at": "2023-08-02T08:16:02.485Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e7963f54-62d7-4562-aea5-b5b9132a53b6",
+        "category": "Fashion",
+        "created_at": "2023-08-01T18:37:09.111Z",
+        "updated_at": "2023-08-02T10:45:42.539Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9b27cf6a-048d-4aea-849b-a667b2aec6e2",
+        "category": "Books",
+        "created_at": "2023-08-01T18:33:30.951Z",
+        "updated_at": "2023-08-02T06:36:32.553Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "15229bef-040c-4905-bd9a-0c5238e2f57a",
+        "category": "Home & Living",
+        "created_at": "2023-08-02T14:06:59.447Z",
+        "updated_at": "2023-08-01T20:07:32.588Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4b3724bc-e5d0-40be-9a02-2fe124274f1f",
+        "category": "Sports & Outdoors",
+        "created_at": "2023-08-02T08:00:42.484Z",
+        "updated_at": "2023-08-02T15:07:58.674Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "item": [
+      {
+        "id": "5223741a-d5db-4e83-bb32-9f346006a7c7",
+        "name": "iPhone 12",
+        "created_at": "2023-08-01T19:05:29.881Z",
+        "updated_at": "2023-08-01T20:22:54.668Z",
+        "category_id": "15229bef-040c-4905-bd9a-0c5238e2f57a",
+        "type_id": "8cd8a966-a137-44b5-83e0-2acf1c1c63ce",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0e03b2c6-4065-4fa4-872c-97e33a6f13bd",
+        "name": "Designer Dress",
+        "created_at": "2023-08-02T12:54:08.838Z",
+        "updated_at": "2023-08-02T08:55:37.370Z",
+        "category_id": "4b3724bc-e5d0-40be-9a02-2fe124274f1f",
+        "type_id": "0a5352aa-0765-4191-866d-4e5b1924cacc",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7ee4dc8b-6f9b-44af-8bef-18d26a377d19",
+        "name": "Harry Potter and the Sorcerer's Stone",
+        "created_at": "2023-08-02T11:50:12.159Z",
+        "updated_at": "2023-08-02T10:48:43.428Z",
+        "category_id": "d342ee29-dea7-4233-9699-59cd2091c939",
+        "type_id": "5f2e2684-da6b-40f5-9611-7c7048c4676b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9ddbdf4b-7770-4dff-864e-915ccddcbc75",
+        "name": "Decorative Pillow",
+        "created_at": "2023-08-01T21:35:48.342Z",
+        "updated_at": "2023-08-02T12:06:41.773Z",
+        "category_id": "15229bef-040c-4905-bd9a-0c5238e2f57a",
+        "type_id": "90041ce5-a4a7-48de-9758-99c4a2fbd635",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "886fcf52-a401-4953-9722-ea4e16a3c879",
+        "name": "Yoga Mat",
+        "created_at": "2023-08-01T16:52:04.942Z",
+        "updated_at": "2023-08-02T10:55:58.294Z",
+        "category_id": "d342ee29-dea7-4233-9699-59cd2091c939",
+        "type_id": "df49abc6-c53b-4f9f-8ebc-0a984e0377b9",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "transaction": [
+      {
+        "id": "85ab7f7a-73b1-43c1-b917-c2745ba8782f",
+        "transaction_type": "Purchase",
+        "created_at": "2023-08-02T15:23:59.459Z",
+        "updated_at": "2023-08-02T08:19:58.323Z",
+        "item_id": "7ee4dc8b-6f9b-44af-8bef-18d26a377d19",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "948e119d-79a8-45d8-b896-92e0082341a8",
+        "transaction_type": "Sale",
+        "created_at": "2023-08-02T10:17:52.928Z",
+        "updated_at": "2023-08-02T09:29:43.473Z",
+        "item_id": "886fcf52-a401-4953-9722-ea4e16a3c879",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4ce441ca-c574-4ea8-bfa4-098e2015dfe9",
+        "transaction_type": "Rental",
+        "created_at": "2023-08-01T21:30:18.620Z",
+        "updated_at": "2023-08-01T16:11:19.205Z",
+        "item_id": "0e03b2c6-4065-4fa4-872c-97e33a6f13bd",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a6146075-ba1e-47b2-9004-b8c96244838c",
+        "transaction_type": "Exchange",
+        "created_at": "2023-08-02T10:21:11.550Z",
+        "updated_at": "2023-08-02T12:24:42.900Z",
+        "item_id": "7ee4dc8b-6f9b-44af-8bef-18d26a377d19",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d3380ee2-eeba-4e27-a584-8a7a0f7d0d2d",
+        "transaction_type": "Donation",
+        "created_at": "2023-08-02T01:50:16.813Z",
+        "updated_at": "2023-08-02T07:15:16.225Z",
+        "item_id": "9ddbdf4b-7770-4dff-864e-915ccddcbc75",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "item_batch": [
+      {
+        "id": "38272206-9486-41a6-a47b-a401c9699799",
+        "batch_number": "12345",
+        "created_at": "2023-08-02T01:49:16.496Z",
+        "updated_at": "2023-08-02T15:02:42.615Z",
+        "item_id": "0e03b2c6-4065-4fa4-872c-97e33a6f13bd",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a3616c0e-15a7-4433-affd-6d9c8bcc476d",
+        "batch_number": "67890",
+        "created_at": "2023-08-02T11:16:32.788Z",
+        "updated_at": "2023-08-02T04:24:01.302Z",
+        "item_id": "0e03b2c6-4065-4fa4-872c-97e33a6f13bd",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6a4bef4f-c049-4ee0-b644-c7b09c6b1b72",
+        "batch_number": "ABCDE",
+        "created_at": "2023-08-02T13:51:09.745Z",
+        "updated_at": "2023-08-02T12:10:49.150Z",
+        "item_id": "0e03b2c6-4065-4fa4-872c-97e33a6f13bd",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "527ccc8a-6295-470d-8cfe-b3e1c9cdadd7",
+        "batch_number": "FGHIJ",
+        "created_at": "2023-08-02T14:43:22.384Z",
+        "updated_at": "2023-08-01T23:32:27.609Z",
+        "item_id": "7ee4dc8b-6f9b-44af-8bef-18d26a377d19",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "74d58f7e-60e5-4d75-ada5-a1b8ed815561",
+        "batch_number": "KLMNO",
+        "created_at": "2023-08-02T15:44:37.528Z",
+        "updated_at": "2023-08-02T07:30:01.803Z",
+        "item_id": "7ee4dc8b-6f9b-44af-8bef-18d26a377d19",
+        "user_id": "user_entity_pk"
+      }
+    ]
+  },
+  {
+    "people": [
+      {
+        "id": "b9dd9a01-3d7b-4e54-a5e3-403771d0983b",
+        "name": "John Smith",
+        "role": "Professor",
+        "created_at": "2023-08-02T01:08:16.684Z",
+        "updated_at": "2023-08-01T19:59:15.011Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c87c108f-e7af-4b5d-8d12-b8f9cc44c0be",
+        "name": "Jane Doe",
+        "role": "Student",
+        "created_at": "2023-08-01T22:41:32.744Z",
+        "updated_at": "2023-08-02T00:37:39.998Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4b34a5ba-4fd8-4ecf-a58f-018e55ad7784",
+        "name": "Michael Brown",
+        "role": "Researcher",
+        "created_at": "2023-08-02T02:46:54.946Z",
+        "updated_at": "2023-08-01T18:24:05.063Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e523f49c-e45a-451b-80d6-337c45af3e56",
+        "name": "Sarah Jones",
+        "role": "Administrator",
+        "created_at": "2023-08-02T14:25:44.148Z",
+        "updated_at": "2023-08-01T18:25:48.492Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cdd1d7da-dad3-422d-a305-046c604681a6",
+        "name": "David Wilson",
+        "role": "Alumni",
+        "created_at": "2023-08-02T07:01:00.683Z",
+        "updated_at": "2023-08-02T00:27:55.392Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "item_type": [
+      {
+        "id": "b04c35c0-cc6d-4b9e-9476-b7a771e2b213",
+        "type": "Electronics",
+        "created_at": "2023-08-02T13:45:39.155Z",
+        "updated_at": "2023-08-01T18:27:09.947Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "aec817b0-efe6-454f-b935-f7acc854c6ee",
+        "type": "Clothing",
+        "created_at": "2023-08-02T06:22:24.903Z",
+        "updated_at": "2023-08-01T23:45:42.188Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4c926c51-4bf9-4c7c-a8e4-411d794a5966",
+        "type": "Books",
+        "created_at": "2023-08-01T16:10:39.034Z",
+        "updated_at": "2023-08-02T09:23:18.367Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "76d58c2e-e396-48cc-b755-a74cd7a17c73",
+        "type": "Furniture",
+        "created_at": "2023-08-02T00:32:18.981Z",
+        "updated_at": "2023-08-01T17:36:07.972Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e37199af-75d2-48be-b685-6fe53bf14800",
+        "type": "Sports Equipment",
+        "created_at": "2023-08-01T17:37:05.392Z",
+        "updated_at": "2023-08-02T02:26:48.643Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "item_category": [
+      {
+        "id": "77191e4d-53d1-4267-81d0-2b872c81fa7c",
+        "category": "Electronics",
+        "created_at": "2023-08-01T18:12:41.942Z",
+        "updated_at": "2023-08-01T17:38:10.000Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8f3c3fce-e171-46ba-806c-dd05da1ba62b",
+        "category": "Fashion",
+        "created_at": "2023-08-02T07:05:23.306Z",
+        "updated_at": "2023-08-02T04:53:05.784Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "960c32f6-45d8-4897-9575-2e175215286e",
+        "category": "Books",
+        "created_at": "2023-08-02T07:53:12.241Z",
+        "updated_at": "2023-08-02T15:13:13.237Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1e3df716-7414-4095-9d5e-de5c1ba5e8b8",
+        "category": "Home Decor",
+        "created_at": "2023-08-01T23:00:44.669Z",
+        "updated_at": "2023-08-01T17:43:10.033Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a889c09a-d432-425b-a044-e4d99b230428",
+        "category": "Sports",
+        "created_at": "2023-08-02T02:03:58.619Z",
+        "updated_at": "2023-08-01T21:04:59.457Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "item": [
+      {
+        "id": "ec9ec48b-ac6f-47bf-910e-b98f9b76f3b4",
+        "name": "iPhone 12",
+        "created_at": "2023-08-01T22:27:40.478Z",
+        "updated_at": "2023-08-02T09:23:44.070Z",
+        "category_id": "77191e4d-53d1-4267-81d0-2b872c81fa7c",
+        "type_id": "aec817b0-efe6-454f-b935-f7acc854c6ee",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "54628b1b-c22e-4a3b-9715-bf3dd502a9e3",
+        "name": "Designer Dress",
+        "created_at": "2023-08-02T09:20:27.450Z",
+        "updated_at": "2023-08-02T04:34:14.957Z",
+        "category_id": "1e3df716-7414-4095-9d5e-de5c1ba5e8b8",
+        "type_id": "aec817b0-efe6-454f-b935-f7acc854c6ee",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b00b5143-2470-465c-8d76-332d0a8523f9",
+        "name": "Harry Potter and the Sorcerer's Stone",
+        "created_at": "2023-08-02T05:19:39.600Z",
+        "updated_at": "2023-08-02T01:32:00.060Z",
+        "category_id": "a889c09a-d432-425b-a044-e4d99b230428",
+        "type_id": "76d58c2e-e396-48cc-b755-a74cd7a17c73",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a21a8545-0c1f-493a-bda8-4528e875b3f9",
+        "name": "Sofa Set",
+        "created_at": "2023-08-02T01:36:32.691Z",
+        "updated_at": "2023-08-02T10:30:34.387Z",
+        "category_id": "8f3c3fce-e171-46ba-806c-dd05da1ba62b",
+        "type_id": "e37199af-75d2-48be-b685-6fe53bf14800",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1bc58ab3-b949-490c-9307-0484a36552b2",
+        "name": "Yoga Mat",
+        "created_at": "2023-08-01T19:27:31.981Z",
+        "updated_at": "2023-08-02T15:46:16.320Z",
+        "category_id": "77191e4d-53d1-4267-81d0-2b872c81fa7c",
+        "type_id": "b04c35c0-cc6d-4b9e-9476-b7a771e2b213",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "transaction": [
+      {
+        "id": "776cbefc-888e-4f2c-a83f-0870dc5fa1ff",
+        "transaction_type": "Purchase",
+        "created_at": "2023-08-01T20:47:01.811Z",
+        "updated_at": "2023-08-02T08:32:20.477Z",
+        "item_id": "b00b5143-2470-465c-8d76-332d0a8523f9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a82cd786-fb9e-4e8e-9319-b856890a3333",
+        "transaction_type": "Sale",
+        "created_at": "2023-08-01T23:59:17.482Z",
+        "updated_at": "2023-08-02T11:53:59.758Z",
+        "item_id": "54628b1b-c22e-4a3b-9715-bf3dd502a9e3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a3cf450c-a84c-4e7e-9ac5-87401ce25178",
+        "transaction_type": "Rental",
+        "created_at": "2023-08-02T04:58:13.485Z",
+        "updated_at": "2023-08-02T04:19:15.846Z",
+        "item_id": "a21a8545-0c1f-493a-bda8-4528e875b3f9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "eccf2fe0-0bdd-4a32-b4ef-dfb30fc45910",
+        "transaction_type": "Exchange",
+        "created_at": "2023-08-01T18:50:20.792Z",
+        "updated_at": "2023-08-02T09:56:36.029Z",
+        "item_id": "b00b5143-2470-465c-8d76-332d0a8523f9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d156dfc5-04eb-4905-b8e5-830716db8216",
+        "transaction_type": "Donation",
+        "created_at": "2023-08-02T12:47:28.378Z",
+        "updated_at": "2023-08-02T05:36:43.665Z",
+        "item_id": "54628b1b-c22e-4a3b-9715-bf3dd502a9e3",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "item_batch": [
+      {
+        "id": "1152302f-16e2-4339-9f9b-a3c0749f0b87",
+        "batch_number": "12345",
+        "created_at": "2023-08-02T02:52:17.793Z",
+        "updated_at": "2023-08-01T22:27:01.972Z",
+        "item_id": "ec9ec48b-ac6f-47bf-910e-b98f9b76f3b4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "98477fec-e197-4397-954f-72433c22aca1",
+        "batch_number": "67890",
+        "created_at": "2023-08-02T12:25:42.029Z",
+        "updated_at": "2023-08-02T05:55:33.923Z",
+        "item_id": "a21a8545-0c1f-493a-bda8-4528e875b3f9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "537707f0-e6d2-4735-9c17-8f4fd17706e1",
+        "batch_number": "ABCDE",
+        "created_at": "2023-08-02T02:18:27.653Z",
+        "updated_at": "2023-08-02T15:26:16.510Z",
+        "item_id": "ec9ec48b-ac6f-47bf-910e-b98f9b76f3b4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "df8f3489-15ab-4dab-bd74-ab90859ca1b3",
+        "batch_number": "FGHIJ",
+        "created_at": "2023-08-02T08:57:07.339Z",
+        "updated_at": "2023-08-02T00:47:52.032Z",
+        "item_id": "a21a8545-0c1f-493a-bda8-4528e875b3f9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b472d271-6f3d-42be-a0f8-85771d21ff5e",
+        "batch_number": "KLMNO",
+        "created_at": "2023-08-02T01:31:43.033Z",
+        "updated_at": "2023-08-02T03:46:23.605Z",
+        "item_id": "54628b1b-c22e-4a3b-9715-bf3dd502a9e3",
+        "user_id": "user_entity_pk"
+      }
+    ]
+  },
+  {
+    "people": [
+      {
+        "id": "0ff26fdd-c138-4bbf-b982-51f1f8255b95",
+        "name": "John Smith",
+        "role": "Professor",
+        "created_at": "2023-08-01T18:48:22.456Z",
+        "updated_at": "2023-08-02T00:07:18.629Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "75dde360-5ac2-4b62-b43b-1ad6a1a540ce",
+        "name": "Jane Doe",
+        "role": "Student",
+        "created_at": "2023-08-02T07:43:59.155Z",
+        "updated_at": "2023-08-02T15:51:19.576Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "af89fb93-95e8-4352-a7cb-78464586a531",
+        "name": "Michael Brown",
+        "role": "Researcher",
+        "created_at": "2023-08-02T11:53:29.220Z",
+        "updated_at": "2023-08-01T22:37:43.653Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4636785c-cf10-4394-aec5-e1a448de5a33",
+        "name": "Sarah Jones",
+        "role": "Administrator",
+        "created_at": "2023-08-01T16:46:37.184Z",
+        "updated_at": "2023-08-02T01:13:27.400Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "45b195a5-f33d-495a-8fe1-44fc9fd493db",
+        "name": "David Wilson",
+        "role": "Alumni",
+        "created_at": "2023-08-01T21:53:41.908Z",
+        "updated_at": "2023-08-02T03:48:35.894Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "item_type": [
+      {
+        "id": "2263c324-945b-4cb0-8196-c65d1fe21bda",
+        "type": "Electronics",
+        "created_at": "2023-08-02T05:03:54.553Z",
+        "updated_at": "2023-08-02T08:43:12.557Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "09064559-fa14-4ca3-8a92-0de5e41f59b3",
+        "type": "Clothing",
+        "created_at": "2023-08-02T04:59:48.671Z",
+        "updated_at": "2023-08-01T18:55:45.900Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "baa50000-13a0-44fd-aac4-0ccf56840ec9",
+        "type": "Books",
+        "created_at": "2023-08-01T20:47:01.095Z",
+        "updated_at": "2023-08-02T07:50:01.443Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b32b71f2-8c02-4b5f-9205-63781a1670a2",
+        "type": "Home Decor",
+        "created_at": "2023-08-01T18:25:53.854Z",
+        "updated_at": "2023-08-02T11:47:57.422Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ee89cd72-c181-462d-ab14-9f146d186113",
+        "type": "Sports Equipment",
+        "created_at": "2023-08-02T02:41:00.548Z",
+        "updated_at": "2023-08-01T20:48:30.584Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "item_category": [
+      {
+        "id": "52f2bddf-6a3c-465e-85ee-8f9ad8875572",
+        "category": "Electronics",
+        "created_at": "2023-08-02T04:25:39.560Z",
+        "updated_at": "2023-08-02T10:24:34.636Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6f903700-666c-4ae6-8457-4a3805ca6b2a",
+        "category": "Fashion",
+        "created_at": "2023-08-01T19:14:39.208Z",
+        "updated_at": "2023-08-02T06:22:35.742Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e448f9fc-8053-4338-9c5d-23b3ff5fb5e0",
+        "category": "Books",
+        "created_at": "2023-08-01T19:03:01.907Z",
+        "updated_at": "2023-08-01T19:24:21.794Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "90c14cd8-17b7-4647-85e0-3f5d98b6595f",
+        "category": "Home & Living",
+        "created_at": "2023-08-02T02:47:56.984Z",
+        "updated_at": "2023-08-02T12:59:11.933Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1b4df766-d606-4266-b210-022c11ec8191",
+        "category": "Sports & Outdoors",
+        "created_at": "2023-08-02T01:05:09.142Z",
+        "updated_at": "2023-08-02T01:07:28.709Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "item": [
+      {
+        "id": "27101576-875e-40dd-a526-e8efaf3c229f",
+        "name": "iPhone 12",
+        "created_at": "2023-08-02T01:20:56.976Z",
+        "updated_at": "2023-08-01T23:07:14.034Z",
+        "category_id": "52f2bddf-6a3c-465e-85ee-8f9ad8875572",
+        "type_id": "baa50000-13a0-44fd-aac4-0ccf56840ec9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "62bf6d01-32b7-458f-8144-713995f3a933",
+        "name": "Designer Dress",
+        "created_at": "2023-08-02T15:06:37.663Z",
+        "updated_at": "2023-08-01T21:22:16.852Z",
+        "category_id": "52f2bddf-6a3c-465e-85ee-8f9ad8875572",
+        "type_id": "ee89cd72-c181-462d-ab14-9f146d186113",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a9456516-2b59-48d0-99f8-b058a56a3bf6",
+        "name": "Harry Potter and the Sorcerer's Stone",
+        "created_at": "2023-08-02T13:40:23.919Z",
+        "updated_at": "2023-08-01T19:20:11.307Z",
+        "category_id": "6f903700-666c-4ae6-8457-4a3805ca6b2a",
+        "type_id": "b32b71f2-8c02-4b5f-9205-63781a1670a2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e1919d46-cd91-4dc8-9516-e20b66c5c8ff",
+        "name": "Decorative Pillow",
+        "created_at": "2023-08-02T12:10:07.018Z",
+        "updated_at": "2023-08-02T15:42:49.310Z",
+        "category_id": "90c14cd8-17b7-4647-85e0-3f5d98b6595f",
+        "type_id": "2263c324-945b-4cb0-8196-c65d1fe21bda",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f7748e78-e25f-4ef5-9157-632348e78b13",
+        "name": "Yoga Mat",
+        "created_at": "2023-08-02T12:49:04.602Z",
+        "updated_at": "2023-08-02T08:12:15.755Z",
+        "category_id": "e448f9fc-8053-4338-9c5d-23b3ff5fb5e0",
+        "type_id": "ee89cd72-c181-462d-ab14-9f146d186113",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "transaction": [
+      {
+        "id": "1b536d42-cd30-4858-adcd-b292b305c624",
+        "transaction_type": "Purchase",
+        "created_at": "2023-08-02T12:52:16.511Z",
+        "updated_at": "2023-08-01T20:55:46.968Z",
+        "item_id": "62bf6d01-32b7-458f-8144-713995f3a933",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a6c4b2ae-ff7a-4012-a2c8-afc292d0ec84",
+        "transaction_type": "Sale",
+        "created_at": "2023-08-01T18:02:29.549Z",
+        "updated_at": "2023-08-02T02:36:01.859Z",
+        "item_id": "e1919d46-cd91-4dc8-9516-e20b66c5c8ff",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c3199ebb-49d5-4eb6-838b-3d7550e6edd5",
+        "transaction_type": "Rental",
+        "created_at": "2023-08-02T04:33:43.864Z",
+        "updated_at": "2023-08-02T10:29:30.063Z",
+        "item_id": "a9456516-2b59-48d0-99f8-b058a56a3bf6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "40315041-0372-418d-9ed0-94c06a485cf5",
+        "transaction_type": "Exchange",
+        "created_at": "2023-08-02T01:03:05.008Z",
+        "updated_at": "2023-08-02T02:06:34.308Z",
+        "item_id": "a9456516-2b59-48d0-99f8-b058a56a3bf6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dcf6cf7e-6c1b-4f2c-8a0c-b6ae7702cec8",
+        "transaction_type": "Donation",
+        "created_at": "2023-08-01T19:58:03.183Z",
+        "updated_at": "2023-08-01T18:03:19.714Z",
+        "item_id": "27101576-875e-40dd-a526-e8efaf3c229f",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "item_batch": [
+      {
+        "id": "a4ed0928-5eba-452d-9699-30d1bc0c1b3d",
+        "batch_number": "12345",
+        "created_at": "2023-08-01T18:32:24.701Z",
+        "updated_at": "2023-08-02T10:21:33.853Z",
+        "item_id": "f7748e78-e25f-4ef5-9157-632348e78b13",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4a46ac4d-cf48-434d-a8f6-6b232266cd40",
+        "batch_number": "67890",
+        "created_at": "2023-08-02T03:40:42.487Z",
+        "updated_at": "2023-08-01T20:34:55.503Z",
+        "item_id": "62bf6d01-32b7-458f-8144-713995f3a933",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8e316188-4d8e-46a8-98f9-47dc540b878b",
+        "batch_number": "ABCDE",
+        "created_at": "2023-08-01T16:53:11.115Z",
+        "updated_at": "2023-08-02T09:27:34.487Z",
+        "item_id": "e1919d46-cd91-4dc8-9516-e20b66c5c8ff",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a6cfd903-70f5-4e50-8c8a-64451fd3fb2a",
+        "batch_number": "FGHIJ",
+        "created_at": "2023-08-01T20:22:00.671Z",
+        "updated_at": "2023-08-02T11:56:38.806Z",
+        "item_id": "27101576-875e-40dd-a526-e8efaf3c229f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "df8c44c0-35d2-439c-81a6-ed4e9069e67e",
+        "batch_number": "KLMNO",
+        "created_at": "2023-08-01T17:46:52.806Z",
+        "updated_at": "2023-08-02T08:46:05.088Z",
+        "item_id": "62bf6d01-32b7-458f-8144-713995f3a933",
+        "user_id": "user_entity_pk"
+      }
+    ]
+  }
+]
